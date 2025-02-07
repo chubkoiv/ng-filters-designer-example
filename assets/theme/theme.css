@@ -1,0 +1,208 @@
+* {
+	font-size: 12px;
+	font-family: "Montserrat", serif;
+	font-weight: 400 !important;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: local('../fonts/Montserrat/Montserrat Medium'), local('../fonts/Montserrat/Montserrat-Medium');
+	unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: local('../fonts/Montserrat/Montserrat Medium'), local('../fonts/Montserrat/Montserrat-Medium');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: local('../fonts/Montserrat/Montserrat Medium'), local('../fonts/Montserrat/Montserrat-Medium');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* vietnamese */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: local('../fonts/Montserrat/Montserrat Bold'), local('../fonts/Montserrat/Montserrat-Bold');
+	unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: local('../fonts/Montserrat/Montserrat Bold'), local('../fonts/Montserrat/Montserrat-Bold');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: local('../fonts/Montserrat/Montserrat Bold'), local('../fonts/Montserrat/Montserrat-Bold');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 6px;
+	height: 6px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #DBDBDB;
+}
+
+.p-dropdown .p-dropdown-trigger {
+	width: 1rem;
+}
+
+.p-dropdown .p-dropdown-clear-icon {
+	right: 1.5rem;
+}
+
+.p-multiselect .p-multiselect-trigger {
+	width: 1rem;
+}
+
+.p-multiselect-clearable .p-multiselect-clear-icon {
+	right: 1.5rem;
+}
+.p-dialog .p-dialog-content {
+	padding: 0 20px 0 20px;
+}
+
+.p-inputtext-mm .p-inputtext {
+	font-size: 0.875rem;
+	padding: 0.375rem 0.375rem;
+}
+
+.p-inputtext.p-inputtext-mm {
+	font-size: 0.875rem;
+	padding: 0.375rem 0.375rem;
+}
+
+.p-button {
+	font-size: 0.875rem;
+	padding: 0.375rem 1.09375rem;
+}
+
+.p-inputtext {
+	border: 0;
+	border-bottom: 1px solid rgb(200, 200, 200);
+	border-radius: 0;
+}
+
+.p-inputwrapper-focus {
+	border-radius: 6px !important;
+}
+
+.p-inputtext:enabled:focus {
+	box-shadow: none;
+}
+
+.p-button-label {
+	text-transform: uppercase;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+	box-shadow: none;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+	text-transform: uppercase;
+}
+
+.row-accessories {
+	color: rgb(210, 210, 210) !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-title {
+	font-size: 20px !important;
+	font-weight: 400;
+	color: #64b8df;
+}
+
+.p-card .p-card-title {
+	font-size: 18px;
+}
+
+.p-fileupload-choose:not(.p-disabled):hover {
+	background: rgba(59, 130, 246, 0.04);
+	color: #F9763D;
+	border: 1px solid;
+}
+.p-fileupload-choose:not(.p-disabled):active {
+	background: rgba(0, 0, 0, 0.16);
+	color: #F9763D;
+	border: 1px solid;
+}
+
+.p-fileupload .p-fileupload-buttonbar .p-button.p-fileupload-choose.p-focus {
+	background-color: transparent;
+	color: #F9763D;
+	border: 1px solid;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+	font-size: 14px;
+	padding: 10px 15px;
+	/*margin: 0 10px;*/
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+	padding: 10px;
+}
+
+.p-badge {
+	background: #F9763D;
+	color: #ffffff;
+	font-size: 0.65rem;
+	font-weight: 700;
+	min-width: 1.2rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+	background: #ffffff;
+	border-color: #F9763D;
+	color: #F9763D;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight {
+	border-color: #F9763D;
+	background: #F9763D;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+	border-color: #F9763D;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+	outline: 0 none;
+	outline-offset: 0;
+	box-shadow: 0 0 0 0.2rem #ffcfbb;
+	border-color: #F9763D;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+	border-color: #F9763D;
+	background: #F9763D;
+	color: #ffffff;
+}
+
+.p-datepicker table td > span.p-highlight {
+	color: #000000;
+	background: #ffcfbb;
+}
+
+.p-tabview .p-tabview-nav-btn.p-link {
+	color: #F9763D;
+}
